@@ -42,7 +42,7 @@ def sendemail(to,content):
     server=smtplib.SMTP('smtp@gmail.com',465)
     server.ehlo()
     server.starttls()
-    server.login('syemeed@gmail.com','ogqctmeywszwnpzs')
+    server.login('syemeed@gmail.com','*********')#password was hidden due to privacy issues
     server.sendmail('syemeed@gmail.com',to,content)
     server.close()
 
